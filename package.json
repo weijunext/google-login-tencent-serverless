@@ -1,0 +1,26 @@
+{
+  "name": "google-login-tencent-serverless",
+  "version": "1.0.0",
+  "description": "部署腾讯serverless，让国内服务实现谷歌登录",
+  "main": "sls.js",
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "dev": "NODE_ENV=development ./node_modules/.bin/nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cheng Pu",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "googleapis": "^118.0.0",
+    "jwt-decode": "^3.1.2",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.4.0",
+    "koa-router": "^8.0.8",
+    "koa-sendfile": "^2.0.1",
+    "nanoid": "^3.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
